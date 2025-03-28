@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.t1,.t2,.t3{
+  width: 25px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    margin: 4px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.c1{
+  width: 33px;
+  height: 33px;
+  background-color: rgba(93, 93, 93, 0.768);
+  margin: 5px;
+  border-radius: 50%;
+  margin-left: 15px;
+
+}
+
+.pdpytb{
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+}
+
+
+.recherche {
+  width: 500px;
+  height: 35px;
+  margin-top: 5px;
+  border-radius: 50px;
+  margin-left: 350px;
+  padding-left: 10px;
+}
+
+.ytlogo{
+  width: auto;
+  height: 20px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.notif{
+  width: 33px;
+  height: 33px;
+  border-radius: 50px;
+  background-color: rgb(238, 234, 234);
+  border: none;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.notif:hover{
+  cursor: pointer;
+  background-color: rgb(151, 151, 151);
+  transition: 0.5s;
+}
+
+.cree{
+  width: 75px;
+  height: 35px;
+  border-radius: 50px;
+  background-color: rgb(238, 234, 234);
+  border: none;
+  margin-top: 5px;
+  font-size: 16px;
+  margin-left: 265px;
+}
+
+.cree:hover{
+  cursor: pointer;
+  background-color: rgb(151, 151, 151);
+  transition: 0.5s;
+}
+
+.audio{
+  width: 33px;
+  height: 33px;
+  border-radius: 50px;
+  background-color: rgb(238, 234, 234);
+  border: none;
+  margin-top: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.audio:hover{
+  cursor: pointer;
+  background-color: rgb(151, 151, 151);
+  transition: 0.5s;
+}
+
+.voc{
+  width: 27px;
+  height: 27px;
+}
+
+.cloch{
+  width: 16px;
+  height: 20px;
+}
+
+.divmum1 {
+    background-color: white;
+    position: absolute;
+    width: auto;
+    height: 50px;
+    display: flex;
+}
+
+.divmum2 {
+  width: auto;
+  height: 120px;
+  background-color: rgb(255, 255, 255);
+}
+
+.divmum22 {
+  width: auto;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+}
+
+.btn-1 {
+  background-color: rgb(2, 2, 2);
+  color: rgb(237, 238, 238);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 11px;
+  border-radius: 7px;
+  margin-left: 220px;
+}
+
+.btn-2,.btn-3,.btn-4,.btn-5,.btn-6,.btn-7,.btn-8,.btn-9,.btn-10,.btn-11,.btn-12,.btn-13,.btn-14 
+{
+  background-color: rgb(238, 234, 234);
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 11px;
+  margin-top: 70px;
+  border-radius: 11px;
+
+}
+
+.btn-2:hover,.btn-3:hover,.btn-4:hover,.btn-5:hover,.btn-6:hover,.btn-7:hover,.btn-8:hover,.btn-9:hover,.btn-10:hover,.btn-11:hover,.btn-12:hover,.btn-13:hover,.btn-14:hover
+{
+  cursor: pointer;
+  background-color: rgb(151, 151, 151);
+  transition: 0.5s;
+
+}
+
+.r1,.r2,.r3{
+  width: 400px;
+  height: 250px;
+  background-color: rgba(93, 93, 93, 0.768);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.cr1,.cr2,.cr3{
+  width: 37px;
+  height: 37px;
+  background-color: rgba(93, 93, 93, 0.768);
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.cr7,.cr8,.cr9{
+  width: 37px;
+  height: 37px;
+  background-color: rgba(93, 93, 93, 0.768);
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.crt7,.crt8,.crt9{
+  width: 300px;
+  height: 12px;
+  background-color: rgba(93, 93, 93, 0.768);
+  margin-left: 46px;
+  margin-top: -35px;
+  border-radius: 5px;
+}
+
+.crt77,.crt88,.crt99{
+  width: 300px;
+  height: 12px;
+  background-color: rgba(93, 93, 93, 0.768);
+  margin-left: 46px;
+  margin-top: -35px;
+  border-radius: 5px;
+}
+
+.crt1,.crt2,.crt3{
+  width: 300px;
+  height: 12px;
+  background-color: rgba(93, 93, 93, 0.768);
+  margin-left: 46px;
+  margin-top: -35px;
+  border-radius: 5px;
+}
+
+.r4,.r5,.r6{
+  width: 400px;
+  height: 250px;
+  background-color: rgba(93, 93, 93, 0.768);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.r7,.r8,.r9{
+  width: 400px;
+  height: 250px;
+  background-color: rgba(93, 93, 93, 0.768);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.crt4,.crt5,.crt6{
+  width: 300px;
+  height: 12px;
+  background-color: rgba(93, 93, 93, 0.768);
+  margin-left: 46px;
+  margin-top: -35px;
+  border-radius: 5px;
+}
+
+.cr4,.cr5,.cr6{
+  width: 37px;
+  height: 37px;
+  background-color: rgba(93, 93, 93, 0.768);
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.crt44,.crt55,.crt66{
+  width: 215px;
+  height: 12px;
+  background-color: rgba(93, 93, 93, 0.768);
+  margin-left: 47px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.crt11,.crt22,.crt33{
+  width: 215px;
+  height: 12px;
+  background-color: rgba(93, 93, 93, 0.768);
+  margin-left: 47px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.divmum3 {
+  width: auto;
+  height: 330px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  margin-left: 200px;
+}
+
+.divmum4 {
+  width: auto;
+  height: 330px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  margin-left: 200px;
+}
+
+.divmum5 {
+  width: auto;
+  height: 330px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  margin-left: 200px;
+}
+
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+.img11,.img22,.img33,.img44,.img55,.img66,.img77,.img88,.img99{
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.sidebar {
+  width: 220px;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  height: 100%;
+  background-color: white;
+  padding: 10px;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sidebar nav ul li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.sidebar nav ul li span {
+  margin-right: 12px;
+  font-size: 16px;
+}
+
+.sidebar nav ul li:hover,
+.sidebar nav ul li.active {
+  background-color: #f1f1f1;
+}
+
+.abonnements-title {
+  font-weight: bold;
+  margin-top: 10px;
+  padding-left: 10px;
+  font-size: 17px;
+  color: #333;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.abonnements li {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  font-size: 13px;
+}
+
+.abonnements li img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
